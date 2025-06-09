@@ -1,6 +1,7 @@
 # Import Libraries
 import pandas as pd
 import numpy as np
+import re
 
 # Load Data
 data= pd.read_csv("scrubbed.csv")
@@ -54,6 +55,23 @@ data[["duration (seconds)","duration (hours/min)"]].sample(5)
 data.drop(columns="duration (hours/min)", axis=1,inplace=True)
 # Convert the type of duration columns from object to float
 data["duration (seconds)"] = data["duration (seconds)"].astype(float)
+
+# Trim "comments" column
+def remove_punctuations(text):
+    return re.sub("[!#$%&'("")’“”*+,-./:;<=>?@[\]^_`{|}~©]+","",text)
+def remove_spaces(text):
+    return re.sub("\s[ ]+","",text)
+def to_lower(text):
+    text = text.lower()
+    return text
+comments = data["comments"]
+for i in range(len(comments)):
+    comments[i] = remove_punctuations(comments[i])
+    comments[i] = remove_spaces(comments[i])
+    comments[i] = to_lower(comments[i])
+comments = [comment for comment in data["comments"]]
+text = " ".join(comments)
+
 # Create cleansed csv file
 data.to_csv("cleaned_data.csv", index=False)
 
