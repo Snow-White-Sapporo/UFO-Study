@@ -8,7 +8,6 @@ While incorporating non-ordinary themes such as UFOs and aliens, the dashboard m
 
 ## 📊 Data Source
 The report is based on the *NUFORC UFO Sightings Dataset* (available on Kaggle), originally provided as `scrubbed.csv`.
-
 Prior to visualization, the dataset was filtered, cleaned, and reshaped. The final version used for analysis is saved as `cleaned_data.csv`.
 
 ## 🎨 Visual Structure & UI
