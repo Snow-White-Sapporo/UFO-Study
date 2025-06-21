@@ -75,15 +75,14 @@ However, if the **[Refresh]** button is pressed, Power BI may attempt to access 
 
 ---
 
-
 ## 📥 How to Use
 
 ### ✅ Required:
 
 Download the following file:
 
-• `PBI_UFO-Study.zip`  
-  → Contains everything needed to open and explore the dashboard (PBIX file, CSVs, visuals, and scripts)
+• [PBI_UFO-Study.zip](https://github.com/Snow-White-Sapporo/UFO-Study/blob/master/PBI_UFO-Study.zip)  
+→ Contains everything needed to open and explore the dashboard (PBIX file, CSVs, visuals, and scripts)
 
 ### 🔍 Optional (if you want to explore further):
 
@@ -91,7 +90,6 @@ Download the following file:
 • `scrubbed.csv`: Raw UFO sightings data before cleaning
 
 ---
-
 ## 🛠 Recommended Environment
 
 | Software           | Version             |
