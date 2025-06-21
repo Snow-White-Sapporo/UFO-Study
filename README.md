@@ -27,7 +27,7 @@ This dashboard was designed for:
 • Power BI users in business or analytics roles
 • Hiring teams evaluating technical capabilities in M language, Python integration, and data-driven design
 
-> 🔍 This dashboard also serves as a portfolio project showcasing the creator Sachiko’s Power BI skill set.
+🔍 _This dashboard also serves as a portfolio project showcasing the creator Sachiko’s Power BI skill set._
 
 ## ⚠️ Important Notes
 The visuals for “UFO Duration” and “Witness Remarks” in the Statistics page are powered by Python Visuals and will only display correctly in Power BI environments where Python is enabled.
