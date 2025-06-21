@@ -45,7 +45,7 @@ To display the custom Python-based visuals, follow these steps:
 pip install matplotlib pandas numpy wordcloud Pillow
 ```
 
-## ⚠ Data Refresh
+## ⚠️ Data Refresh
 
 This report references two external CSV files:
 
@@ -67,7 +67,7 @@ However, if the **[Refresh]** button is pressed, Power BI may attempt to access 
 
 ## 📁 File Structure
 
-- `PBI_UFO-Study.zip`: Archive containing the report and required resources  
+- <pre>```PBI_UFO-Study.zip`: Archive containing the report and required resources  
   ├─ `UFO Project.pbix`: Main Power BI report file  
   ├─ `cleaned_data.csv`: Cleaned UFO sightings data  
   ├─ `latitude_longitude_grouping_table_world.csv`: Grid-based location mapping  
@@ -76,9 +76,7 @@ However, if the **[Refresh]** button is pressed, Power BI may attempt to access 
 
 - `DataCleansing.py` (optional): Data preprocessing script  
 - `scrubbed.csv` (optional): Original raw dataset  
-- `README.md`: This document
-
----
+- `README.md`: This document ```</pre>
 
 ## 📥 How to Use
 
