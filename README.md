@@ -7,7 +7,7 @@ This report visualizes UFO sightings from multiple perspectives—temporal, geog
 While incorporating non-ordinary themes such as UFOs and aliens, the dashboard maintains a data representation suitable for business use. With intuitive usability and a unique visual style, it aims to provide an experience that goes beyond simple information delivery.
 
 ## 📊 Data Source
-The report is based on the *NUFORC UFO Sightings Dataset* (available on Kaggle), originally provided as `scrubbed.csv`.
+The report is based on the [NUFORC UFO Sightings Dataset](https://www.kaggle.com/datasets/NUFORC/ufo-sightings)  (available on Kaggle), originally provided as `scrubbed.csv`.
 Prior to visualization, the dataset was filtered, cleaned, and reshaped. The final version used for analysis is saved as `cleaned_data.csv`.
 
 ## 🎨 Visual Structure & UI
