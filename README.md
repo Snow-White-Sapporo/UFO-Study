@@ -1,3 +1,6 @@
+> ※ This project is protected by copyright. Unauthorized reproduction, modification, or redistribution is not permitted.  
+> Created by Sachiko (GitHub: @Snow-White-Sapporo)
+
 # 🌌 UFO Sightings Dashboard (Power BI)
 
 ## 🔭 Project Overview
@@ -103,3 +106,13 @@ Download the following file:
 
 • Rebuild the themed dashboard in Tableau  
 • Add interactivity, animations, and external data integrations in future updates
+
+## Copyright & License
+
+© 2025 Sachiko (GitHub: @Snow-White-Sapporo). All rights reserved.  
+All contents of this repository—including code, images, and documentation—are protected by copyright.
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
+You may not reproduce, distribute, modify, or use this work for commercial purposes without explicit permission.
+
+> This is a carefully crafted project. I kindly ask that it be treated with respect.
