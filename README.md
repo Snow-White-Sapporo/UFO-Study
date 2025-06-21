@@ -46,19 +46,18 @@ pip install matplotlib pandas numpy wordcloud
 
 ## ⚠️ Data Refresh
 
-This report references two external CSV files:
+This report references one external CSV files:
 
 • `cleaned_data.csv`  
-• `latitude_longitude_grouping_table_world.csv`
 
 These files are already loaded into the `.pbix` file, so in most cases **no refresh is needed**.  
 However, if the **[Refresh]** button is pressed, Power BI may attempt to access the original absolute file paths used during development, which can lead to errors.
 
 ### ✅ If refresh is needed:
 
-• Make sure both CSV files exist locally on your machine  
+• Make sure the CSV file exists locally on your machine  
 • In Power BI, go to **Transform Data**  
-• Open each query (`cleaned_data`, `latitude_longitude_grouping_table_world`)  
+• Open the query (`cleaned_data`)  
 • Update the following step to match your local path:  
   `Source = File.Contents("your/local/path/to/file.csv")`
 
@@ -69,7 +68,6 @@ However, if the **[Refresh]** button is pressed, Power BI may attempt to access 
 • `PBI_UFO-Study.zip`: Archive containing the report and required resources  
   ├─ `UFO Project.pbix`: Main Power BI report file  
   ├─ `cleaned_data.csv`: Cleaned UFO sightings data  
-  ├─ `latitude_longitude_grouping_table_world.csv`: Grid-based location mapping  
   ├─ `images/`: Backgrounds and visual assets  
   └─ `PythonScripts/`: Python scripts for visual generation  
 
