@@ -24,8 +24,8 @@ Prior to visualization, the dataset was filtered, cleaned, and reshaped. The fin
 
 ## 👤 Intended Audience & Use
 This dashboard was designed for:  
-• Power BI users in business or analytics roles  
-• Hiring teams evaluating technical capabilities in M language, Python integration, and data-driven design
+      • Power BI users in business or analytics roles  
+      • Hiring teams evaluating technical capabilities in M language, Python integration, and data-driven design
 
 🔍 _This dashboard also serves as a portfolio project showcasing the creator Sachiko’s Power BI skill set._
 
