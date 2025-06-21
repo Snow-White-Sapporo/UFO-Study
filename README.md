@@ -1,5 +1,5 @@
-> ※ This project is protected by copyright. Unauthorized reproduction, modification, or redistribution is not permitted.  
-> Created by Sachiko (GitHub: @Snow-White-Sapporo)
+※ This project is protected by copyright. Unauthorized reproduction, modification, or redistribution is not permitted.  
+Created by Sachiko (GitHub: @Snow-White-Sapporo)
 
 # 🌌 UFO Sightings Dashboard (Power BI)
 
@@ -115,4 +115,4 @@ All contents of this repository—including code, images, and documentation—ar
 This work is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
 You may not reproduce, distribute, modify, or use this work for commercial purposes without explicit permission.
 
-> This is a carefully crafted project. I kindly ask that it be treated with respect.
+This is a carefully crafted project. I kindly ask that it be treated with respect.
