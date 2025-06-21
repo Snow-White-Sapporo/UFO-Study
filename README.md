@@ -108,7 +108,7 @@ Download the following file:
 • Rebuild the themed dashboard in Tableau  
 • Add interactivity, animations, and external data integrations in future updates
 
-## Copyright & License
+## 🛡️ Copyright & License
 
 © 2025 Sachiko (GitHub: @Snow-White-Sapporo). All rights reserved.  
 All contents of this repository—including code, images, and documentation—are protected by copyright.
