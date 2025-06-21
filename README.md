@@ -82,7 +82,7 @@ However, if the **[Refresh]** button is pressed, Power BI may attempt to access 
 Download the following file:
 
 • [PBI_UFO-Study.zip](https://github.com/Snow-White-Sapporo/UFO-Study/blob/master/PBI_UFO-Study.zip)  
-→ Contains everything needed to open and explore the dashboard (PBIX file, CSVs, visuals, and scripts)
+→ Contains everything needed to open and explore the dashboard (PBIX file, CSV, images, and scripts)
 
 ### 🔍 Optional (if you want to explore further):
 
