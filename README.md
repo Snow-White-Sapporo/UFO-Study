@@ -13,8 +13,8 @@ Prior to visualization, the dataset was filtered, cleaned, and reshaped. The fin
 ## 🎨 Visual Structure & UI
 1. **Background image**: A thematic custom design sets the tone for the entire layout.
 2. **Color & fonts**: Dark mode + metallic silver tone (#C0C0C0) ensure futuristic yet high-contrast readability.
-   - Font color: #C0C0C0 (silver gray)
-   - Minimal visual noise: Axes, borders, and titles are removed to emphasize clean data forms.
+   • Font color: #C0C0C0 (silver gray)
+   • Minimal visual noise: Axes, borders, and titles are removed to emphasize clean data forms.
 3. **Page structure**: Concise page names and clearly guided navigation enhance usability.
 
 ## 🧪 Technical Highlights
@@ -24,8 +24,8 @@ Prior to visualization, the dataset was filtered, cleaned, and reshaped. The fin
 
 ## 👤 Intended Audience & Use
 This dashboard was designed for:
-- Power BI users in business or analytics roles
-- Hiring teams evaluating technical capabilities in M language, Python integration, and data-driven design
+• Power BI users in business or analytics roles
+• Hiring teams evaluating technical capabilities in M language, Python integration, and data-driven design
 
 > 🔍 This dashboard also serves as a portfolio project showcasing the creator Sachiko’s Power BI skill set.
 
@@ -48,34 +48,34 @@ pip install matplotlib pandas numpy wordcloud
 
 This report references two external CSV files:
 
-- `cleaned_data.csv`  
-- `latitude_longitude_grouping_table_world.csv`
+• `cleaned_data.csv`  
+• `latitude_longitude_grouping_table_world.csv`
 
 These files are already loaded into the `.pbix` file, so in most cases **no refresh is needed**.  
 However, if the **[Refresh]** button is pressed, Power BI may attempt to access the original absolute file paths used during development, which can lead to errors.
 
 ### ✅ If refresh is needed:
 
-- Make sure both CSV files exist locally on your machine  
-- In Power BI, go to **Transform Data**  
-- Open each query (`cleaned_data`, `latitude_longitude_grouping_table_world`)  
-- Update the following step to match your local path:  
+• Make sure both CSV files exist locally on your machine  
+• In Power BI, go to **Transform Data**  
+• Open each query (`cleaned_data`, `latitude_longitude_grouping_table_world`)  
+• Update the following step to match your local path:  
   `Source = File.Contents("your/local/path/to/file.csv")`
 
 ---
 
 ## 📁 File Structure
 
-- PBI_UFO-Study.zip`: Archive containing the report and required resources  
+• PBI_UFO-Study.zip`: Archive containing the report and required resources  
   ├─ `UFO Project.pbix`: Main Power BI report file  
   ├─ `cleaned_data.csv`: Cleaned UFO sightings data  
   ├─ `latitude_longitude_grouping_table_world.csv`: Grid-based location mapping  
   ├─ `images/`: Backgrounds and visual assets  
   └─ `PythonScripts/`: Python scripts for visual generation  
 
-- `DataCleansing.py` (optional): Data preprocessing script  
-- `scrubbed.csv` (optional): Original raw dataset  
-- `README.md`: This document
+• `DataCleansing.py` (optional): Data preprocessing script  
+• `scrubbed.csv` (optional): Original raw dataset  
+• `README.md`: This document
 
 ## 📥 How to Use
 
@@ -83,13 +83,13 @@ However, if the **[Refresh]** button is pressed, Power BI may attempt to access 
 
 Download the following file:
 
-- `PBI_UFO-Study.zip`  
+• `PBI_UFO-Study.zip`  
   → Contains everything needed to open and explore the dashboard (PBIX file, CSVs, visuals, and scripts)
 
 ### 🔍 Optional (if you want to explore further):
 
-- `DataCleansing.py`: Review the data cleaning logic  
-- `scrubbed.csv`: Raw UFO sightings data before cleaning
+• `DataCleansing.py`: Review the data cleaning logic  
+• `scrubbed.csv`: Raw UFO sightings data before cleaning
 
 ---
 
@@ -104,5 +104,5 @@ Download the following file:
 
 ## 🔭 Future Plans
 
-- Rebuild the themed dashboard in Tableau  
-- Add interactivity, animations, and external data integrations in future updates
+• Rebuild the themed dashboard in Tableau  
+• Add interactivity, animations, and external data integrations in future updates
