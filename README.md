@@ -43,3 +43,68 @@ To display the custom Python-based visuals, follow these steps:
 
 ```bash
 pip install matplotlib pandas numpy wordcloud Pillow
+
+## ⚠ Data Refresh
+
+This report references two external CSV files:
+
+- `cleaned_data.csv`  
+- `latitude_longitude_grouping_table_world.csv`
+
+These files are already loaded into the `.pbix` file, so in most cases **no refresh is needed**.  
+However, if the **[Refresh]** button is pressed, Power BI may attempt to access the original absolute file paths used during development, which can lead to errors.
+
+### ✅ If refresh is needed:
+
+- Make sure both CSV files exist locally on your machine  
+- In Power BI, go to **Transform Data**  
+- Open each query (`cleaned_data`, `latitude_longitude_grouping_table_world`)  
+- Update the following step to match your local path:  
+  `Source = File.Contents("your/local/path/to/file.csv")`
+
+---
+
+## 📁 File Structure
+
+- `PBI_UFO-Study.zip`: Archive containing the report and required resources  
+  ├─ `UFO Project.pbix`: Main Power BI report file  
+  ├─ `cleaned_data.csv`: Cleaned UFO sightings data  
+  ├─ `latitude_longitude_grouping_table_world.csv`: Grid-based location mapping  
+  ├─ `images/`: Backgrounds and visual assets  
+  └─ `PythonScripts/`: Python scripts for visual generation  
+
+- `DataCleansing.py` (optional): Data preprocessing script  
+- `scrubbed.csv` (optional): Original raw dataset  
+- `README.md`: This document
+
+---
+
+## 📥 How to Use
+
+### ✅ Required:
+
+Download the following file:
+
+- `PBI_UFO-Study.zip`  
+  → Contains everything needed to open and explore the dashboard (PBIX file, CSVs, visuals, and scripts)
+
+### 🔍 Optional (if you want to explore further):
+
+- `DataCleansing.py`: Review the data cleaning logic  
+- `scrubbed.csv`: Raw UFO sightings data before cleaning
+
+---
+
+## 🛠 Recommended Environment
+
+| Software           | Version             |
+|--------------------|----------------------|
+| Power BI Desktop   | Version 2.144 or later |
+| Python             | 3.9 or 3.10 (64-bit)  |
+
+---
+
+## 🔭 Future Plans
+
+- Rebuild the themed dashboard in Tableau  
+- Add interactivity, animations, and external data integrations in future updates
