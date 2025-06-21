@@ -12,9 +12,9 @@ Prior to visualization, the dataset was filtered, cleaned, and reshaped. The fin
 
 ## 🎨 Visual Structure & UI
 1. **Background image**: A thematic custom design sets the tone for the entire layout.
-2. **Color & fonts**: Dark mode + metallic silver tone (#C0C0C0) ensure futuristic yet high-contrast readability.
-   • Font color: #C0C0C0 (silver gray)
-   • Minimal visual noise: Axes, borders, and titles are removed to emphasize clean data forms.
+2. **Color & fonts**: Dark mode + metallic silver tone (`#C0C0C0`) ensure futuristic yet high-contrast readability.  
+   - Font color: `#C0C0C0` (silver gray)  
+   - Minimal visual noise: Axes, borders, and titles are removed to emphasize clean data forms.
 3. **Page structure**: Concise page names and clearly guided navigation enhance usability.
 
 ## 🧪 Technical Highlights
