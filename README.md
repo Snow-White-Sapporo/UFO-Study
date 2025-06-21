@@ -43,6 +43,7 @@ To display the custom Python-based visuals, follow these steps:
 
 ```bash
 pip install matplotlib pandas numpy wordcloud Pillow
+```
 
 ## ⚠ Data Refresh
 
