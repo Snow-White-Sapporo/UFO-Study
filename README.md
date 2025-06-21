@@ -46,12 +46,12 @@ pip install matplotlib pandas numpy wordcloud
 
 ## ⚠️ Data Refresh
 
-This report references one external CSV files:
+This report references one external CSV file:
 
-• `cleaned_data.csv`  
+• cleaned_data.csv
 
-These files are already loaded into the `.pbix` file, so in most cases **no refresh is needed**.  
-However, if the **[Refresh]** button is pressed, Power BI may attempt to access the original absolute file paths used during development, which can lead to errors.
+This file is already loaded into the `.pbix` report, so in most cases, no refresh is needed.  
+However, if the **[Refresh]** button is pressed, Power BI may attempt to access the original absolute file path used during development, which can lead to errors.
 
 ### ✅ If refresh is needed:
 
