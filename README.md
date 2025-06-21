@@ -42,7 +42,7 @@ To display the custom Python-based visuals, follow these steps:
 2. Install the following libraries in your Python environment:
 
 ```bash
-pip install matplotlib pandas numpy wordcloud Pillow
+pip install matplotlib pandas numpy wordcloud
 ```
 
 ## ⚠️ Data Refresh
