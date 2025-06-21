@@ -60,7 +60,6 @@ However, if the **[Refresh]** button is pressed, Power BI may attempt to access 
 • Open the `cleaned_data` query  
 • Update the following step to match your local file path:  
   `Source = File.Contents("your/local/path/to/file.csv")`
----
 
 ## 📁 File Structure
 
