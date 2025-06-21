@@ -30,7 +30,7 @@ This dashboard was designed for:
 🔍 _This dashboard also serves as a portfolio project showcasing the creator Sachiko’s Power BI skill set._
 
 ## ⚠️ Important Notes
-The visuals for “UFO Duration” and “Witness Remarks” in the Statistics page are powered by Python Visuals and will only display correctly in Power BI environments where Python is enabled.
+The visuals for **“UFO Duration”** and **“Witness Remarks”** in the Statistics page are powered by Python Visuals and will only display correctly in Power BI environments where Python is enabled.
 
 ## 🐍 Python Visuals & Required Libraries
 To display the custom Python-based visuals, follow these steps:
