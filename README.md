@@ -23,8 +23,8 @@ Prior to visualization, the dataset was filtered, cleaned, and reshaped. The fin
 3. Visuals are saved as transparent PNG images from Python and layered over Power BI’s background for seamless integration.
 
 ## 👤 Intended Audience & Use
-This dashboard was designed for:
-• Power BI users in business or analytics roles
+This dashboard was designed for:  
+• Power BI users in business or analytics roles  
 • Hiring teams evaluating technical capabilities in M language, Python integration, and data-driven design
 
 🔍 _This dashboard also serves as a portfolio project showcasing the creator Sachiko’s Power BI skill set._
@@ -55,12 +55,11 @@ However, if the **[Refresh]** button is pressed, Power BI may attempt to access 
 
 ### ✅ If refresh is needed:
 
-• Make sure the CSV file exists locally on your machine  
+• Ensure that the CSV file exists locally on your machine  
 • In Power BI, go to **Transform Data**  
-• Open the query (`cleaned_data`)  
-• Update the following step to match your local path:  
+• Open the `cleaned_data` query  
+• Update the following step to match your local file path:  
   `Source = File.Contents("your/local/path/to/file.csv")`
-
 ---
 
 ## 📁 File Structure
